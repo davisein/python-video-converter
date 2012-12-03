@@ -1,0 +1,12 @@
+Source: videoconverter
+Maintainer: Senko Rasic <senko.rasic@dobarkod.hr>
+Section: python
+Priority: optional
+Build-Depends: python-all (>= 2.6.6-3), debhelper (>= 7)
+Standards-Version: 3.9.1
+
+Package: python-videoconverter
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends}
+Description: Video Converter library
+
